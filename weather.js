@@ -11,7 +11,7 @@ $.ajax ({
         console.log(result.name);
 
         // Output of th location 
-        let displayCity = `Current Weather in ${result.name}`;
+        let displayCity = `Current Weather in: ${result.name}`;
         $("#location").html(displayCity);
         
 
